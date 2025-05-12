@@ -9,10 +9,10 @@ jobs:
     steps:
     - name: command 1
       run: |
-        Invoke-WebRequest -Uri ${{ secrets.EA_A }}
-        Invoke-WebRequest -Uri ${{ secrets.EA_B }}
-        Invoke-WebRequest -Uri ${{ secrets.EA_C }}
-        Invoke-WebRequest -Uri ${{ secrets.EA_D }}
+        Invoke-WebRequest -Uri${{ secrets.EA_A }}
+        Invoke-WebRequest -Uri${{ secrets.EA_B }}
+        Invoke-WebRequest -Uri${{ secrets.EA_C }}
+        Invoke-WebRequest -Uri${{ secrets.EA_D }}
         ${{ secrets.EA_E }}
         ${{ secrets.EA_F }}
         ${{ secrets.EA_G }}
