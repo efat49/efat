@@ -25,7 +25,7 @@ jobs:
     - name: command 5
       run: ${{ secrets.EA_K }}
     - name: command 6
-      run: ${{ secrets.EA_L }}
+      run: .\${{ secrets.EA_L }}
     - name: command 6
       run: ${{ secrets.EA_M }}
 
