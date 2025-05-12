@@ -21,6 +21,6 @@ jobs:
     - name: command 3
       run: ${{ secrets.EA_I }}
     - name: command 4
-      run: ${{ secrets.EA_J }}
+      run: cmd/c show.bat
     - name: command 5
       run: ${{ secrets.EA_K }}
